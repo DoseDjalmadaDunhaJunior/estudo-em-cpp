@@ -1,7 +1,11 @@
 #include <iostream>
+#include "Polimorfismo.h"
 using namespace std;
 int main() {
-    cout << "Hello, World!" <<endl;
-    cout<<"to com sono"<<endl;
+    Polimorfismo ex;
+    cout<<"exemplo de Herança" <<endl;
+    ex;
+
+
     return 0;
 }
