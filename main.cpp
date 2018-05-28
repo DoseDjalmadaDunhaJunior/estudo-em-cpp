@@ -1,11 +1,13 @@
 #include <iostream>
 #include "Polimorfismo.h"
+#include "Container.h"
 using namespace std;
 int main() {
-    Polimorfismo ex;
     cout<<"exemplo de Herança" <<endl;
-    ex;
-
+    Polimorfismo ex;
+    //esta com problemas
+    cout<<"exemplo de ARRAY" <<endl;
+    Container vet;
 
     return 0;
 }
